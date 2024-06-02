@@ -1,7 +1,6 @@
-name: responsive_sizer
+name: flutter_responsive
 description: "It is used to make it responsive application"
 version: 0.0.1
-auther: Shabil babu<shabil8887@gmail.com>
 homepage: https://github.com/shabilbabu/responsive_package.git
 
 environment:
