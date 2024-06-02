@@ -11,29 +11,43 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Screen Sizer
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Flutter provides new opportunities to build apps that can run on mobile, desktop, and the web from a single codebase. However, with these opportunities, come new challenges. You want your app to feel familiar to users, adapting to each platform by maximizing usability and ensuring a comfortable and seamless experience. That is, you need to build apps that are not just multiplatform, but are fully platform adaptive.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To start using your screen_sizer package, you'll first need to publish it to pub.dev so that others can easily include it in their projects. Once your package is published, other developers can add it as a dependency in their pubspec.yaml file.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Add the Package Dependency: In the pubspec.yaml file of the Flutter project where they want to use your package, they should add a dependency to screen_sizer. For example:
 
 ```dart
-const like = 'sample';
+dependencies:
+  flutter:
+    sdk: flutter
+  screen_sizer: ^1.0.0 
+```
+
+Import the Package: In the Dart file where they want to use your SizeExtension, they should import the screen_sizer package:
+
+```dart
+import 'package:flutter_responsive/flutter_responsive.dart';
+```
+
+
+Use the Extension: They can now use the SizeExtension on any num type to get the responsive size or font size. For example:
+
+
+```dart
+double size = 100.size(context); // Get a responsive size
+double fontSize = 20.fontSize(context); // Get a responsive font size
+
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Note: Make sure to replace ^1.0.0 with the correct version of your package.
