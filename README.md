@@ -11,7 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-Screen Sizer
+Screener
 
 ## Features
 
@@ -19,20 +19,20 @@ Flutter provides new opportunities to build apps that can run on mobile, desktop
 
 ## Getting started
 
-To start using your screen_sizer package, you'll first need to publish it to pub.dev so that others can easily include it in their projects. Once your package is published, other developers can add it as a dependency in their pubspec.yaml file.
+To start using your screener package, you'll first need to publish it to pub.dev so that others can easily include it in their projects. Once your package is published, other developers can add it as a dependency in their pubspec.yaml file.
 
 ## Usage
 
-Add the Package Dependency: In the pubspec.yaml file of the Flutter project where they want to use your package, they should add a dependency to screen_sizer. For example:
+Add the Package Dependency: In the pubspec.yaml file of the Flutter project where they want to use your package, they should add a dependency to screener. For example:
 
 ```dart
 dependencies:
   flutter:
     sdk: flutter
-  screen_sizer: ^1.0.0 
+  screener: ^1.0.0 
 ```
 
-Import the Package: In the Dart file where they want to use your SizeExtension, they should import the screen_sizer package:
+Import the Package: In the Dart file where they want to use your SizeExtension, they should import the screener package:
 
 ```dart
 import 'package:flutter_responsive/flutter_responsive.dart';

@@ -1,4 +1,4 @@
-library screen_sizer;
+library screener;
 
 import 'package:flutter/material.dart';
 
