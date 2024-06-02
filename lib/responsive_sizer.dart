@@ -1,4 +1,4 @@
-library responsive_sizer;
+library flutter_responsive;
 
 import 'package:flutter/material.dart';
 
