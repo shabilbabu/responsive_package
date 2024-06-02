@@ -1,8 +1,8 @@
 // test/flutter_responsive_test.dart
 
 import 'package:flutter/material.dart';
-import 'package:flutter_responsive/responsive_sizer.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:screen_sizer/responsive_sizer.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
